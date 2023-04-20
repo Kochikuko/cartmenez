@@ -600,8 +600,12 @@ video {
   gap: 3rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-\[8px\] {
+  gap: 8px;
+}
+
+.gap-\[18px\] {
+  gap: 18px;
 }
 
 .gap-x-2 {
@@ -1090,7 +1094,7 @@ small {
   }
 
   .roadmap {
-    padding-top: 20rem;
+    padding-top: 16rem;
   }
 
   .footer-main-wrapper {
@@ -1204,6 +1208,26 @@ small {
   }
 }
 
+.links:not(:hover) {
+  color: #f4f4f4;
+  transition: all 0.3s ease-in;
+}
+
+.links:hover {
+  color: #ffe800;
+  transition: all 0.3s ease-out;
+}
+
+.links-2:not(:hover) {
+  color: #1E1E1E;
+  transition: all 0.3s ease-in;
+}
+
+.links-2:hover {
+  color: #ffe800;
+  transition: all 0.3s ease-out;
+}
+
 @media (min-width: 375px) {
   .xs\:text-\[57px\] {
     font-size: 57px;
@@ -1273,3 +1297,5 @@ small {
     padding-right: 2rem;
   }
 }
+
+
