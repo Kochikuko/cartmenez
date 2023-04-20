@@ -751,13 +751,13 @@ video {
 @font-face {
   font-family: "southpark";
 
-  src: url(/fonts/headings.ttf);
+  src: url(../fonts/headings.ttf);
 }
 
 @font-face {
   font-family: "sp";
 
-  src: url(/fonts/sp.ttf);
+  src: url(../fonts/sp.ttf);
 }
 
 p,
@@ -868,7 +868,7 @@ p {
 }
 
 .page-1 {
-  background-image: url(/dist/images/bg-1.png);
+  background-image: url(../dist/images/bg-1.png);
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -923,7 +923,7 @@ nav {
 }
 
 .page-2-bg {
-  background-image: url(/dist/images/bg-2.png);
+  background-image: url(../dist/images/bg-2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -946,19 +946,19 @@ nav {
 }
 
 .page-3-wrapper {
-  background-image: url(/dist/images/ice.svg);
+  background-image: url(../dist/images/ice.svg);
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .footer-main-wrapper {
-  background-image: url(/dist/images/eric.gif);
+  background-image: url(../dist/images/eric.gif);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 /* .roadmap {
-  background-image: url(/dist/images/roadmap.png);
+  background-image: url(../dist/images/roadmap.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -995,7 +995,7 @@ h6 {
   opacity: 0.015;
   z-index: 1000;
   pointer-events: none;
-  background: url(/dist/images/noise.gif);
+  background: url(../dist/images/noise.gif);
 }
 
 small {
@@ -1031,7 +1031,7 @@ small {
 
 @media (max-width: 425px) {
   .page-3-wrapper {
-    background-image: url(/dist/images/ice-2.svg);
+    background-image: url(../dist/images/ice-2.svg);
   }
 }
 
