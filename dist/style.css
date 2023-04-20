@@ -627,8 +627,8 @@ video {
   row-gap: 2rem;
 }
 
-.rounded-\[30px\] {
-  border-radius: 30px;
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .border-2 {
@@ -946,7 +946,7 @@ nav {
 }
 
 .page-3-wrapper {
-  background-image: url(../dist/images/ice.svg);
+  background-image: url(.././dist/images/ice.svg);
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -1094,7 +1094,7 @@ small {
   }
 
   .footer-main-wrapper {
-    margin-top: 20vh;
+    margin-top: 25vh;
   }
 }
 
@@ -1193,6 +1193,17 @@ small {
   } */
 }
 
+@media (max-width: 320px) {
+  .roadmap {
+    padding-top: 15rem;
+  }
+
+  .cartman-wrapper {
+    right: 0;
+    bottom: -1145px !important;
+  }
+}
+
 @media (min-width: 375px) {
   .xs\:text-\[57px\] {
     font-size: 57px;
@@ -1211,6 +1222,10 @@ small {
   .s\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .s\:text-\[15vw\] {
+    font-size: 15vw;
   }
 
   .s\:text-\[64px\] {
